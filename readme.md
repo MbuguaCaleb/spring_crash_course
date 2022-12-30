@@ -51,6 +51,6 @@ Our Java Spring Boot Application runs inside this Server
 
 My application runs as an apache TomCat Servelet and that is why
 it is able to server requests
-hi
+
 ```
 
