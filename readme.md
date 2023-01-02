@@ -66,6 +66,10 @@ Our Java Spring Boot Application runs inside this Server
 My application runs as an apache TomCat Servelet and that is why
 it is able to server requests
 
+
+A servelet is a process that handles a Http Request and also
+gets a Http Response
+
 ```
 
 **Github Personal Account Details**
@@ -135,4 +139,56 @@ their components without you lifting a finger
 It is responsible for telling Spring where to look for components
  
 
+```
+
+**Spring MVC**
+
+```aidl
+It abstracts all the messy details from a barebone application
+when writing my apps...
+
+It has annotations as well,
+
+It is very complex to write custom servelets
+
+@Controller
+Marks the class as a web controller
+
+A specialization of the @component annotation,which allows spring to autodetect implementation 
+classes/beans by scanning the class path
+
+@RestController
+
+@Rest controller is a convenience syntax for @Controller and @ResponseBody
+together
+
+This indicates that the class is a controller and all methods in it will
+return a JSON Response
+
+@ResponseBody
+It is a utilitity annotation that tells spring to automatically serialize 
+return values of the classes into http responses
+
+
+```
+
+**Jackson Library**
+
+```aidl
+
+JSON for Java
+
+JSON serilization and deserialization lib for Java
+
+Eish jackson==json
+```
+
+**Java Records**
+
+```aidl
+As developers and software engineers, our aim is to always design ways to obtain maximum efficiency and if we need to write less code for it, then that’s a blessing. 
+
+In Java, a record is a special type of class declaration aimed at reducing the boilerplate code.
+ 
+Java records were introduced with the intention to be used as a fast way to create data carrier classes,
 ```
