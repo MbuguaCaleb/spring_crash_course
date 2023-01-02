@@ -5,6 +5,11 @@
 
 First of all it is an improvement of the spring framework
 
+
+When i use starter-web there are some dependencides it
+comes with i.e tomcat that help me bootstrap an application
+very fast
+
 ```
 
 **Parent in POM XML**
