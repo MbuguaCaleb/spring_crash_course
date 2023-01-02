@@ -1,3 +1,12 @@
+**Spring Boot**
+
+
+```aidl
+
+First of all it is an improvement of the spring framework
+
+```
+
 **Parent in POM XML**
 
 
@@ -54,3 +63,71 @@ it is able to server requests
 
 ```
 
+**Github Personal Account Details**
+
+```aidl
+
+ git config user.email "mbuguacaleb30@gmail.com"
+ 1082  git config user.name "MbuguaCaleb"
+ 
+git remote add origin git@github-personal:MbuguaCaleb/spring_master_class.git
+
+
+```
+
+**Syntatic Sugar**
+
+```aidl
+
+Important Spring annotations,
+
+@Bean
+@Component
+@ComponentScan
+@Configuration
+@Service
+@Repository
+@Autowired
+@Qualifier
+@ProperySource
+
+
+@SpringBootApplication
+
+Is Spring Syntantic Sugar for three Spring annotations,
+
+@ComponentScan(basePackages = "com.codewithcaleb")
+@EnableAutoConfiguration
+@Configuration
+
+@Configuration 
+Configuration classes are used to create beans,conventionally
+called AppConfig
+
+@Service
+Unlike other components,it offers no special functionality
+over component and is instead used to show the intent of 
+the class
+
+@Repository
+Used on classes that directly access the database
+
+@Autowired
+It is used for automatic injection of beans
+
+@Qualifier
+It is used in conjuction with autowired when we have
+two or more similar beans
+
+@EnableAutoConfiguration
+It is even better.It makes Spring guess the configuation
+based on the JAR Files available on the classpath
+
+It can figure out what liblaries you use and pre-configure
+their components without you lifting a finger
+
+@ComponentScan
+It is responsible for telling Spring where to look for components
+ 
+
+```
