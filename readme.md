@@ -259,4 +259,35 @@ POSTGRES SHORTCUTS
 
 (e)\d all relations
 
+(f) Viewing columns in a specific table
+
+\d customer
+
+```
+
+**JPA**
+
+
+```aidl
+
+
+Gives me the ability to log the queries that i am writing
+
+
+jpa:
+hibernate:
+  ddl-auto: create-drop
+properties:
+  hibernate:
+    dialect: org.hibernate.dialect.PostgreSQLDialect
+    format_sql: true
+show-sql: true
+
+```
+
+**Assignment**
+
+```aidl
+
+Java Optionals
 ```
