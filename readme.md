@@ -192,3 +192,71 @@ In Java, a record is a special type of class declaration aimed at reducing the b
  
 Java records were introduced with the intention to be used as a fast way to create data carrier classes,
 ```
+
+**N-Tier Application structure**
+
+```aidl
+
+N-tier architecture is also called multi-tier architecture because the software 
+is engineered to have the processing, data management, and presentation functions physically and logically separated.  That means that these different functions are hosted on several machines or clusters, ensuring that services are provided without resources being shared and, as such, these services are delivered at top capacity.  
+
+The “N” in the name n-tier architecture refers to any number from 1.
+
+Not only does your software gain from being able to get services at the best possible rate, but it’s also easier to manage.  This is because when you work on one section, the changes you make will not affect the other functions.  And if there is a problem, you can easily pinpoint where it originates
+
+```
+
+
+**JPA**
+
+```aidl
+
+Jakata Persistence
+
+We are able to take our classes in java and map them into database tables
+without ever having to write SQL Code
+
+
+We use JPA to Map our entities to our database
+
+
+```
+
+
+**Docker shortcuts**
+
+```aidl
+
+See list of running containers
+
+(a)docker ps 
+
+Running a docker container eg getting into a postgres terminal,
+
+This is how i execute a container,
+
+(b)docker exec -it {container name/id} bash
+
+Once in the container terminal i can get into postgres
+
+(c)psql -U {username}
+
+
+POSTGRES SHORTCUTS
+
+(a)List Dbs
+\l -->list dbs
+
+(b)Exit terminal
+\q -exit
+
+(c)connect into a specific database
+
+\c customer
+
+(d)viewing relations
+\dt
+
+(e)\d all relations
+
+```
